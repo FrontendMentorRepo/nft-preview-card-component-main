@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+html, 
+body {
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);    
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    position:relative;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 320px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.img1{
+    width: 100%;
+    border-radius: 10px;
+}
+.img1:hover{
+    opacity: 0.10;
+    background-color: wheat;
+    
+}
+.title{
+    color:  hsl(0, 0%, 100%);
+    font-weight: 600 ;
+    margin: 20px 0;
+    font-size: 21px
+}
+.title:hover{
+    color: hsl(178, 100%, 50%);
+}
+.descriptionText{
+    font-size: 18px;
+    color:  hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin: 20px 0;
+    
+}
+.infos{
+    color: white;
+    display: flex;
+    justify-content: space-between;    
+    margin: 20px 0;
+}
+.infosdays{
+    display: flex;
+}
+.eth{
+    color:hsl(178, 100%, 50%) ;
+    
+    align-self: center;
+    margin-right: 5px;
+
+}
+.price{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+}
+.material-symbols-outlined{
+   color: hsl(215, 51%, 70%);
+   font-size: 15px;
+   align-self: center;
+   margin-right: 5px;   
+}
+.infosdays{
+    color: hsl(215, 51%, 70%);
+}
+hr{
+    height: 0px;
+    border-color: hsl(215, 32%, 27%);
+    margin-bottom: 15px;
+}
+.profil{
+    height: 30px;
+    display: flex;
+    font-weight: 300 ;
+}
+.img2{
+    border-radius: 50%;
+    height: 100%;
+    border: 1px solid white;
+}
+.profiltext{
+    align-self: center;
+    color:  hsl(215, 51%, 70%);
+    margin-left: 15px;
+}
+.name{color: white;}
+
+.name:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+
+.oeil{
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
