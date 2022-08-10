@@ -5,4 +5,4 @@ This is what I made :
 <img src="https://github.com/FrontendMentorRepo/nft-preview-card-component-main/blob/main/nft-preview-card-component-main/result.PNG"/>
 <Br/>
 It is what was expected :
-<img src="https://github.com/FrontendMentorRepo/nft-preview-card-component-main/nft-preview-card-component-main/blob/main/design/design/desktop-preview.jpg"/>
+<img src="https://github.com/FrontendMentorRepo/nft-preview-card-component-main/blob/main/nft-preview-card-component-main/design/desktop-design.jpg"/>
