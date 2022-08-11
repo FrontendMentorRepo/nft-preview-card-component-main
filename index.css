@@ -15,15 +15,40 @@ body {
     margin: 0 auto;
     border-radius: 10px;
 }
-.img1{
-    width: 100%;
-    border-radius: 10px;
+.containerMainPic{
+    display: grid;     
+    background-color:hsl(178, 100%, 50%) ;
+    
+    border-radius: 10px;  
 }
-.img1:hover{
-    opacity: 0.10;
-    background-color: wheat;
+.img1{
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;    
+    border-radius: 10px;  
+    z-index: 0;
+    opacity: 1;
+}
+.oeil{
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 10px;  
+    margin: auto auto auto auto;        
     
 }
+.img1:hover ~ .oeil {
+    z-index: 10;
+}
+.img1:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+
+
+
+
 .title{
     color:  hsl(0, 0%, 100%);
     font-weight: 600 ;
@@ -32,6 +57,8 @@ body {
 }
 .title:hover{
     color: hsl(178, 100%, 50%);
+    
+    cursor: pointer;
 }
 .descriptionText{
     font-size: 18px;
@@ -93,10 +120,8 @@ hr{
 
 .name:hover{
     color:hsl(178, 100%, 50%) ;
+    
+    cursor: pointer;
 }
 
-.oeil{
-    position: relative;
-    top: 50%;
-    left: 50%;
-}
+
